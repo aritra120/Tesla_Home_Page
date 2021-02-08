@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button.js';
 import './Item.css'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 //import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
@@ -23,6 +24,13 @@ const Item = ({title,desc,leftBtnTxt,leftBtnLink,rightBtnTxt,rightBtnLink,twoBut
                         <Button imp='secondary' text={rightBtnTxt} link={rightBtnLink}/>
                     )}
                 </div>
+                {
+                    first && (
+                            <div className="item__expand">
+                                <ExpandMoreIcon/>
+                            </div>
+                    )
+                }
             </div>
         </div>
      </div>   

@@ -11,9 +11,9 @@ const Header = () =>{
 
             <div className="header__center">
                 <p>Modeel S</p>
-                <p>Modeel 3</p>
                 <p>Modeel X</p>
                 <p>Modeel Y</p>
+                <p>Modeel 3</p>
                 <p>Solar Roof</p>
                 <p>Solar Pannel</p>
             </div>

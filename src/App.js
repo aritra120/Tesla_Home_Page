@@ -16,18 +16,7 @@ function App() {
     <div className="App">
       <Header/>
       <div className="app__itemsContainer">
-        <Item
-          title='Lowest Cost Solar Pannels in America'
-          desc='Money-back gurenty'
-          backgroundImg={SolarPanels}
-          leftBtnTxt='Order Now'
-          leftBtnLink=''
-          rightBtnTxt="Learn More"
-          rightBtnLink=''
-          twoButtons='true'
-          first
-        />
-
+        
         <Item
           title='Model S'
           desc='Order Online for Touchless Delivery'
@@ -37,19 +26,9 @@ function App() {
           rightBtnTxt='Existing Inventory'
           rightBtnLink=''
           twoButtons='true'
-        />
 
-        <Item
-          title='Model 3'
-          desc='Order Online for Touchless Delivery'
-          backgroundImg={Model3}
-          leftBtnTxt='Customer Order'
-          leftBtnLink=''
-          rightBtnTxt='Existing Inventory'
-          rightBtnLink=''
-          twoButtons='true'
         />
-
+        
         <Item
           title='Model X'
           desc='Order Online for Touchless Delivery'
@@ -71,6 +50,34 @@ function App() {
           rightBtnLink=''
           twoButtons='true'
         />
+        
+        <Item
+          title='Model 3'
+          desc='Order Online for Touchless Delivery'
+          backgroundImg={Model3}
+          leftBtnTxt='Customer Order'
+          leftBtnLink=''
+          rightBtnTxt='Existing Inventory'
+          rightBtnLink=''
+          twoButtons='true'
+        />
+        
+        <Item
+          title='Lowest Cost Solar Pannels in America'
+          desc='Money-back gurenty'
+          backgroundImg={SolarPanels}
+          leftBtnTxt='Order Now'
+          leftBtnLink=''
+          rightBtnTxt="Learn More"
+          rightBtnLink=''
+          twoButtons='true'
+        />
+
+        
+
+        
+
+        
 
         <Item
           title='Solar For New Roofs'
@@ -91,7 +98,6 @@ function App() {
           leftBtnLink=''
           rightBtnTxt='Learn More'
           rightBtnLink=''
-          twoButtons='false'
         />
       </div>
     </div>

@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    scroll-snap-align: start;
 }
 
 .item__container{
@@ -40,3 +41,13 @@
     display: flex;
 }
 
+.item__expand{
+    color: white;
+    width: 50%;
+    margin-top: 2%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-left: 8%;
+}
